@@ -780,6 +780,91 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7751496041412978204, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
   m_PrefabInstance: {fileID: 94232716}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &105602475
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1314394465}
+    m_Modifications:
+    - target: {fileID: 986930102953883431, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+      propertyPath: m_text
+      value: Dormitory
+      objectReference: {fileID: 0}
+    - target: {fileID: 986930102953883431, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+      propertyPath: m_margin.x
+      value: -6.611639
+      objectReference: {fileID: 0}
+    - target: {fileID: 986930102953883431, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+      propertyPath: m_margin.z
+      value: 0.22479725
+      objectReference: {fileID: 0}
+    - target: {fileID: 6282986638210526390, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+      propertyPath: m_Name
+      value: PlaqueBoard (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751496041412978204, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.826
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751496041412978204, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751496041412978204, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.772
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751496041412978204, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751496041412978204, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751496041412978204, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751496041412978204, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751496041412978204, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751496041412978204, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751496041412978204, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213115161307732376, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+      propertyPath: m_Name
+      value: Security (TMP)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213115161307732376, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8213115161307732376, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+--- !u!4 &105602476 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7751496041412978204, guid: dbc154136c3f3aa4591147cf629b5a18, type: 3}
+  m_PrefabInstance: {fileID: 105602475}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &117339470
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7863,6 +7948,7 @@ Transform:
   - {fileID: 943464364}
   - {fileID: 94232717}
   - {fileID: 1058805309}
+  - {fileID: 105602476}
   - {fileID: 606805226}
   m_Father: {fileID: 2140072600}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
